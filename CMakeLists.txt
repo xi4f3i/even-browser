@@ -16,6 +16,11 @@ set(EVEN_CORE_SOURCES
 )
 
 set(EVEN_CORE_HEADERS
+    src/dom/attr.h
+    src/dom/document.h
+    src/dom/element.h
+    src/dom/node.h
+    src/dom/text.h
     src/html/state.h
     src/html/token.h
     src/html/tokenizer.h
