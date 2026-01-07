@@ -6,6 +6,6 @@
 ///
 /// https://dom.spec.whatwg.org/#interface-element
 class Element : public Node {
- protected:
- public:
+protected:
+public:
 };

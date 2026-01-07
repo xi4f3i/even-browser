@@ -13,6 +13,7 @@ enable_testing()
 
 set(EVEN_CORE_SOURCES
     src/html/tokenizer.cpp
+    src/dom/node.cpp
 )
 
 set(EVEN_CORE_HEADERS
