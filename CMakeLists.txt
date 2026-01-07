@@ -12,8 +12,9 @@ find_package(unofficial-skia CONFIG REQUIRED)
 enable_testing()
 
 set(EVEN_CORE_SOURCES
-    src/html/tokenizer.cpp
     src/dom/node.cpp
+    src/html/parser.cpp
+    src/html/tokenizer.cpp
 )
 
 set(EVEN_CORE_HEADERS
@@ -22,6 +23,7 @@ set(EVEN_CORE_HEADERS
     src/dom/element.h
     src/dom/node.h
     src/dom/text.h
+    src/html/parser.h
     src/html/state.h
     src/html/token.h
     src/html/tokenizer.h
