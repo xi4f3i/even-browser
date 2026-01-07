@@ -8,4 +8,8 @@
 class Document : public Node {
 protected:
 public:
+    Document()
+        : Node(Node::Type::DOCUMENT_NODE)
+    {
+    }
 };
